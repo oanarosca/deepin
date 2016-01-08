@@ -1,0 +1,80 @@
+body {
+  background-image: url("back.png");
+}
+
+.container {
+  background-image: url("back2.png");
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 80%;
+  -webkit-box-shadow: 15px 0 10px -15px #000000, -15px 0 10px -15px #000000;
+  -moz-box-shadow: 10px 0 6px -10px #000000, -10px 0 6px -10px #000000;
+  -ms-box-shadow: 10px 0 6px -10px #000000, -6px 0 6px -4px #000000;
+  -o-box-shadow: 10px 0 6px -10px #000000, -10px 0 6px -10px #000000;
+  box-shadow: 15px 0 10px -15px #000000, -15px 0 10px -15px #000000;
+}
+
+.text {
+  margin: 0 auto;
+  width: 80%;
+}
+
+h1 {
+  font-family: 'Economica', 'Roboto', Helvetica, Arial;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Roboto', 'Economica', Helvetica, Arial;
+  color: #414141;
+  text-align: center;
+}
+
+a {
+  color: #f8632f;
+}
+
+hr {
+  height: 4px;
+  width: 80%;
+  background: #c9a275;
+}
+
+h3 {
+  font-family: 'Open Sans', Helvetica, Arial;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+p {
+  font-family: 'Open Sans';
+  line-height: 1.8;
+}
+
+h3, p {
+  text-align: justify;
+  margin: 0 auto;
+}
+
+span {
+  font-weight: bold;
+}
+
+
+.single {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 700px;
+  height: 525px;
+}
+
+.wrap {
+  margin: 10px;
+  width: 500px;
+}
