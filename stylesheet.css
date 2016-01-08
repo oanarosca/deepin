@@ -71,10 +71,15 @@ span {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 700px;
-  height: 525px;
 }
 
 .wrap {
   margin: 10px;
   width: 500px;
+}
+
+#footer {
+  padding: 40px;
+  font-size: 15px;
+  text-align: center;
 }

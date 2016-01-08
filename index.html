@@ -15,11 +15,43 @@
         <h3>What is Deepin?</h3>
         <p>Deepin is a Linux distribution, based on Debian. It's unique, user-friendly, and very easy to use. You can download Deepin 2015 Alpha 2 from <a href="http://blog.deepin.org/2015/11/deepin-15-alpha2-a-different-deepin-for-you/">here</a>. Make sure you download the correct version for you (32-bit or 64-bit). If you don't have it already, you can download Oracle VM VirtualBox from <a href="https://www.virtualbox.org/wiki/Downloads">here</a>. These steps work for both Windows and Linux operating systems.
         </p>
-        <img src="deepin.png" alt="Deepin Linux" class="single">
+        <img src="deepin.PNG" alt="Deepin Linux" class="single">
         <h3>Setting up the virtual machine</h3>
         <img src="nameos.PNG" alt="Name the OS" class="wrap" align="left">
         <p>Once you have VirtualBox installed, we can step right into the installation of Deepin. Click on the <span>New</span> button in VirtualBox to begin. Write <span>Deepin</span> in the <span>Name</span> field, choose <span>Linux</span> from the <span>Type</span> drop-down list, and choose <span>Other Linux (32-bit or 64-bit)</span>. Next, choose the amount of RAM (notice that VirtualBox makes suggestions based on your computer's specifications), and then create a new virtual hard-disk. A new dialog box will open, where you'll set up the virtual hard-disk. You can choose it to be dynamically allocated (it grows in size when needed, up to a limit you set), although many prefer the <span>Fixed</span> size option, since it usually makes the virtual machine faster and does not fragment the host operating system. Pay attention that 8GB are required to install the system, so choose a size greater than that.
-  </p>
+        </p>
+        <img src="memory_harddisk.PNG" alt="Memory and Hard Disk setup" class="single">
+        <p>Now there's only one step we need to take before we can start out virtual machine. Go to <span>Settings</span> > <span>Storage</span> and notice <span>Empty</span> written next to a little disk icon. Click on it, then click on the highlighted disk icon in the below picture, which will open a drop-down menu. Select <span>Choose Virtual Optical Disk File...</span> then go to the path where you saved the <span>.iso</span> file (downloaded at the beginning) and choose it. Now that you've mounted the image, you can push that <span>Start</span> button!
+        </p>
+        <img src="mounting.PNG" alt="Mounting" class="single">
+        <h3>Installing Deepin</h3>
+        <p>The first screen will let you choose the language. Once you set up the username and the password for the system user in the second screen, you will be asked to partition the drive. In this tutorial we gave the root partition the whole available space. Then click on <span>Install</span>, and watch the demo Deepin gives you of the system, while the files are being copied and the settings are being made.
+Once this simple installation process has finished, you will be asked to reboot in order to be able to use your brand new Deepin Linux, and here comes a very important part.
+        </p>
+        <img src="install.PNG" alt="Installation" class="single">
+        <p>If you just simply click on the <span>Reboot</span> button, it will boot from the <span>.iso</span> file once again, leading you to the installation process again. So click <span>File</span> > <span>Close</span> and power the machine off. Next, go to <span>Settings</span> > <span>Storage</span> and choose the <span>.iso</span> file (it's the same place where <span>Empty</span> was located before mounting the image). Click once again on the little disk icon on the right, and choose <span>Remove Disk from Virtual Drive</span>. This is just like ejecting a disk after installing an OS, so it won't endlessly take you to the installation process.
+        </p>
+        <h3>Starting and using Deepin</h3>
+        <img src="lock.PNG" alt="Lock screen" class="wrap" align="left">
+        <br>
+        <p>Now we can <span>Start</span> the machine! Once you type your password, we're ready to go!
+Deepin has a really good-looking interface, clean, tidy, and neat, making it easier to navigate. When you first open it up, you see a clean desktop and a launcher at the bottom. The flat-styled icons give it a refreshing, modern look.
+        </p>
+        <img src="controlpanel.PNG" alt="Control Panel" class="wrap" align="right">
+        <br><br><br><br>
+        <p>The system settings appear all in one panel on the right side. You can easily configure the time and date, keyboards, sound, monitors, users and many more. You are also given the ability to change Boot Menu settings.
+        </p>
+        <br><br>
+        <p>Deepin comes with a number of pre-installed applications, so you can immediately get to work. The list of applications include Libre Office, Google Chrome, Nautilus (Files), Launcher, Deepin Store, Music Player and Movie Player, Adobe Flash Player and many more. By clicking on the Launcher icon, you can see the applications sorted by name, usage, or category (as seen below).
+        </p>
+        <img src="launcher.PNG" alt="Launcher" class="single">
+        <p>You can easily download new applications from the Deepin Store. Elegant looking, it shows you recommendations, featured applications, and lets you search for whatever you need.
+        </p>
+        <img src="store.PNG" alt="Deepin Store" class="single">
+        <p>Powering it off is easy too. Open the Settings Panel and click the Power button. It lets you choose from shutting it down, suspending, restarting, locking, and logging off.
+        </p>
+        <img src="power.PNG" alt="Powering off" class="single" id="last">
+        <p id="footer">This project is part of FOSSASIA Google Code-In 2015. Click <a href="http://fossasia.org">here</a> to visit fossasia.org</p>
       </div>
     </div>
   </body>
